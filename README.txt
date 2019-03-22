@@ -8,7 +8,7 @@ Tech/Framework used:
 Java 8, SceneBuilder
 
 Installation:
-This application is packaged as a .jar file located in TicTacToe/out/artfacts/TicTacToe_jar
+This application is packaged as a .jar file
 
 Author/Date:
 Jonathan Hamilton 2019-03-22
