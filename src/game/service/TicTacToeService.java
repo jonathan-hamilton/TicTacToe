@@ -211,6 +211,5 @@ public class TicTacToeService {
             }
             playerTurn = true;
         }
-
     }
 }

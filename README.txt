@@ -18,7 +18,7 @@ Features:
 
 Decisions:
 -I chose to create this application using JavaFX/SceneBuilder because of the ease of use and integration with Java code.
--I utilized a pseudo-MVC architecture. There was no data to persist and thus no Model necessary but I did decide to
+-I utilized a semi-MVC architecture. There was no data to persist and thus no Model necessary but I did decide to
 use a Service class for the implementation of the logic to separate that responsibility from the controller.
 -The Controller classes control their respective XML view with ActionEvent listeners.
 
