@@ -43,8 +43,8 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
         
     }
 
-    // On click ActionEvent on each button, passing the button and the instance of the tic tac toe baord to a
-    // service class method taht sets the text, checks for a win and switches players turns
+    // On click ActionEvent on each button, passing the button and the instance of the tic tac toe board to a
+    // service class method that sets the text, checks for a win and switches players turns
     public void button1ActionPerformed(ActionEvent e){
         if(button1.getText().equals("")){
             setTextCheckForWinAndSwitchPlayerTurn(button1, this);
