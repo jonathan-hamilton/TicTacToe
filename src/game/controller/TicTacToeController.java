@@ -41,8 +41,8 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
 
     }
 
-    // On click ActionEvent on each button, passing the button and the instance of the tic tac toe board to a
-    // service class method that sets the text, checks for a win and switches players turns
+    // On click executes a Service class method that sets the text to X or O, checks for a win or stalemate
+    // and switches turns
     public void button1ActionPerformed(ActionEvent e) {
         if (button1.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button1, this);
@@ -97,7 +97,7 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
         }
     }
 
-    // Reset button to clear values and start a new game
+    // Reset button to clear values, enable buttons and start a new game
     public void resetActionPerformed(ActionEvent e) {
         resetBoard(this);
     }

@@ -8,9 +8,9 @@ import javafx.stage.Stage;
 
 // author: Jonathan Hamilton 2019-03-22
 
-// Main class setting primary stage and scene
 public class Main extends Application {
 
+    // Sets the title stage and scene
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("views/title.fxml"));

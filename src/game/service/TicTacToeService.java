@@ -13,7 +13,8 @@ public class TicTacToeService {
     private static boolean player1Won = false;
     private static boolean player2Won = false;
 
-    // checkForWin method to check all possibilities of winning tic tac toe
+    // checkForWin method to check all possibilities of winning tic tac toe with another method call to check
+    // for a stalemate
     public static void checkForWin(TicTacToeController board) {
 
         // checks for X winning

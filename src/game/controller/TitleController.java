@@ -14,6 +14,7 @@ public class TitleController {
     @FXML
     public Button pressToPlayButton = new Button();
 
+    // Sets the stage and scene for a new game
     public void pressToPlayButtonAction(ActionEvent e) {
         try {
             Parent parent = FXMLLoader.load(getClass().getResource("/game/views/tic_tac_toe.fxml"));
