@@ -13,8 +13,10 @@ This application is packaged as a .jar file which can be executed if you have a 
 Features:
 -This program features a playable game of Tic Tac Toe where players can alternate turns.
 -A red label will indicate the winner of the game.
+-A red label will indicate a stalemate or "Cat's" game
 -To start a game a button is provided on the title page labeled "Press to Play".
--A reset button is provided to restart the game. The game can be stopped and reset at any time.
+-Buttons will become disabled once a game is won or all the buttons have been played.
+-A reset button is provided to restart the game.
 
 Decisions:
 -I chose to create this application using JavaFX/SceneBuilder because of the ease of use and integration with Java code.
