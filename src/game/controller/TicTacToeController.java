@@ -11,7 +11,7 @@ import static game.service.TicTacToeService.*;
 // Controller for the Tic Tac Toe game
 public class TicTacToeController implements EventHandler<ActionEvent> {
 
-    // One button for each position on the tic tac toe board, plus a reset button
+    // One button for each position on the tic tac toe board, a label and a reset button
     @FXML
     public Button reset;
     @FXML
@@ -38,61 +38,61 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
     // Required override not used in this implementation
     @Override
     public void handle(ActionEvent event) {
-        
+
     }
 
     // On click ActionEvent on each button, passing the button and the instance of the tic tac toe board to a
     // service class method that sets the text, checks for a win and switches players turns
-    public void button1ActionPerformed(ActionEvent e){
-        if(button1.getText().equals("")){
+    public void button1ActionPerformed(ActionEvent e) {
+        if (button1.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button1, this);
         }
     }
 
     public void button2ActionPerformed(ActionEvent e) {
-        if(button2.getText().equals("")){
+        if (button2.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button2, this);
         }
     }
 
     public void button3ActionPerformed(ActionEvent e) {
-        if(button3.getText().equals("")){
+        if (button3.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button3, this);
         }
     }
 
     public void button4ActionPerformed(ActionEvent e) {
-        if(button4.getText().equals("")){
+        if (button4.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button4, this);
         }
     }
 
     public void button5ActionPerformed(ActionEvent e) {
-        if(button5.getText().equals("")){
+        if (button5.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button5, this);
         }
     }
 
     public void button6ActionPerformed(ActionEvent e) {
-        if(button6.getText().equals("")){
+        if (button6.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button6, this);
         }
     }
 
     public void button7ActionPerformed(ActionEvent e) {
-        if(button7.getText().equals("")){
+        if (button7.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button7, this);
         }
     }
 
     public void button8ActionPerformed(ActionEvent e) {
-        if(button8.getText().equals("")){
+        if (button8.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button8, this);
         }
     }
 
     public void button9ActionPerformed(ActionEvent e) {
-        if(button9.getText().equals("")){
+        if (button9.getText().equals("")) {
             setTextCheckForWinAndSwitchPlayerTurn(button9, this);
         }
     }

@@ -17,65 +17,65 @@ public class TicTacToeService {
     public static void checkForWin(TicTacToeController board) {
 
         // checks for X winning
-        if(board.button1.getText().equals("X")) {
-            if(board.button2.getText().equals("X")) {
-                if(board.button3.getText().equals("X")) {
+        if (board.button1.getText().equals("X")) {
+            if (board.button2.getText().equals("X")) {
+                if (board.button3.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button4.getText().equals("X")) {
-            if(board.button5.getText().equals("X")) {
-                if(board.button6.getText().equals("X")) {
+        if (board.button4.getText().equals("X")) {
+            if (board.button5.getText().equals("X")) {
+                if (board.button6.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button7.getText().equals("X")) {
-            if(board.button8.getText().equals("X")) {
-                if(board.button9.getText().equals("X")) {
+        if (board.button7.getText().equals("X")) {
+            if (board.button8.getText().equals("X")) {
+                if (board.button9.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button1.getText().equals("X")) {
-            if(board.button4.getText().equals("X")) {
-                if(board.button7.getText().equals("X")) {
+        if (board.button1.getText().equals("X")) {
+            if (board.button4.getText().equals("X")) {
+                if (board.button7.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button2.getText().equals("X")) {
-            if(board.button5.getText().equals("X")) {
-                if(board.button8.getText().equals("X")) {
+        if (board.button2.getText().equals("X")) {
+            if (board.button5.getText().equals("X")) {
+                if (board.button8.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button3.getText().equals("X")) {
-            if(board.button6.getText().equals("X")) {
-                if(board.button9.getText().equals("X")) {
+        if (board.button3.getText().equals("X")) {
+            if (board.button6.getText().equals("X")) {
+                if (board.button9.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button1.getText().equals("X")) {
-            if(board.button5.getText().equals("X")) {
-                if(board.button9.getText().equals("X")) {
+        if (board.button1.getText().equals("X")) {
+            if (board.button5.getText().equals("X")) {
+                if (board.button9.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
             }
         }
-        if(board.button3.getText().equals("X")) {
-            if(board.button5.getText().equals("X")) {
-                if(board.button7.getText().equals("X")) {
+        if (board.button3.getText().equals("X")) {
+            if (board.button5.getText().equals("X")) {
+                if (board.button7.getText().equals("X")) {
                     setPlayer1Won(true);
                     setPlayer2Won(false);
                 }
@@ -83,79 +83,79 @@ public class TicTacToeService {
         }
 
         // checks for O winning
-        if(board.button1.getText().equals("O")) {
-            if(board.button2.getText().equals("O")) {
-                if(board.button3.getText().equals("O")) {
+        if (board.button1.getText().equals("O")) {
+            if (board.button2.getText().equals("O")) {
+                if (board.button3.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button4.getText().equals("O")) {
-            if(board.button5.getText().equals("O")) {
-                if(board.button6.getText().equals("O")) {
+        if (board.button4.getText().equals("O")) {
+            if (board.button5.getText().equals("O")) {
+                if (board.button6.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button7.getText().equals("O")) {
-            if(board.button8.getText().equals("O")) {
-                if(board.button9.getText().equals("O")) {
+        if (board.button7.getText().equals("O")) {
+            if (board.button8.getText().equals("O")) {
+                if (board.button9.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button1.getText().equals("O")) {
-            if(board.button4.getText().equals("O")) {
-                if(board.button7.getText().equals("O")) {
+        if (board.button1.getText().equals("O")) {
+            if (board.button4.getText().equals("O")) {
+                if (board.button7.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button2.getText().equals("O")) {
-            if(board.button5.getText().equals("O")) {
-                if(board.button8.getText().equals("O")) {
+        if (board.button2.getText().equals("O")) {
+            if (board.button5.getText().equals("O")) {
+                if (board.button8.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button3.getText().equals("O")) {
-            if(board.button6.getText().equals("O")) {
-                if(board.button9.getText().equals("O")) {
+        if (board.button3.getText().equals("O")) {
+            if (board.button6.getText().equals("O")) {
+                if (board.button9.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button1.getText().equals("O")) {
-            if(board.button5.getText().equals("O")) {
-                if(board.button9.getText().equals("O")) {
+        if (board.button1.getText().equals("O")) {
+            if (board.button5.getText().equals("O")) {
+                if (board.button9.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button3.getText().equals("O")) {
-            if(board.button5.getText().equals("O")) {
-                if(board.button7.getText().equals("O")) {
+        if (board.button3.getText().equals("O")) {
+            if (board.button5.getText().equals("O")) {
+                if (board.button7.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(board.button3.getText().equals("O")) {
-            if(board.button5.getText().equals("O")) {
-                if(board.button7.getText().equals("O")) {
+        if (board.button3.getText().equals("O")) {
+            if (board.button5.getText().equals("O")) {
+                if (board.button7.getText().equals("O")) {
                     setPlayer1Won(false);
                     setPlayer2Won(true);
                 }
             }
         }
-        if(checkForCatsGame(board)){
+        if (checkForCatsGame(board)) {
             board.winnerLabel.setText("Cat's game, no winner");
         }
     }
@@ -163,33 +163,36 @@ public class TicTacToeService {
     // Method to check for a stalemate
     private static boolean checkForCatsGame(TicTacToeController board) {
         if (
-            (board.button1.getText().equals("X") || board.button1.getText().equals("O")) &&
-            (board.button2.getText().equals("X") || board.button2.getText().equals("O")) &&
-            (board.button3.getText().equals("X") || board.button3.getText().equals("O")) &&
-            (board.button4.getText().equals("X") || board.button4.getText().equals("O")) &&
-            (board.button5.getText().equals("X") || board.button5.getText().equals("O")) &&
-            (board.button6.getText().equals("X") || board.button6.getText().equals("O")) &&
-            (board.button7.getText().equals("X") || board.button7.getText().equals("O")) &&
-            (board.button8.getText().equals("X") || board.button8.getText().equals("O")) &&
-            (board.button9.getText().equals("X") || board.button9.getText().equals("O"))
-        ) {return true;}
-        else{return false;}
+                (board.button1.getText().equals("X") || board.button1.getText().equals("O")) &&
+                        (board.button2.getText().equals("X") || board.button2.getText().equals("O")) &&
+                        (board.button3.getText().equals("X") || board.button3.getText().equals("O")) &&
+                        (board.button4.getText().equals("X") || board.button4.getText().equals("O")) &&
+                        (board.button5.getText().equals("X") || board.button5.getText().equals("O")) &&
+                        (board.button6.getText().equals("X") || board.button6.getText().equals("O")) &&
+                        (board.button7.getText().equals("X") || board.button7.getText().equals("O")) &&
+                        (board.button8.getText().equals("X") || board.button8.getText().equals("O")) &&
+                        (board.button9.getText().equals("X") || board.button9.getText().equals("O"))
+                ) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
     // Method called from Controller class to set text, check for win and switch turns
-    public static void setTextCheckForWinAndSwitchPlayerTurn(Button button, TicTacToeController board){
-        if(playerTurn){
+    public static void setTextCheckForWinAndSwitchPlayerTurn(Button button, TicTacToeController board) {
+        if (playerTurn) {
             button.setText("X");
             checkForWin(board);
-            if(isPlayer1Won()){
+            if (isPlayer1Won()) {
                 board.winnerLabel.setText("Player 1 Won!!");
                 disableButtons(board);
             }
             playerTurn = false;
-        }else{
+        } else {
             button.setText("O");
             checkForWin(board);
-            if(isPlayer2Won()){
+            if (isPlayer2Won()) {
                 board.winnerLabel.setText("Player 2 Won!!");
                 disableButtons(board);
             }
@@ -209,13 +212,13 @@ public class TicTacToeService {
         buttons.add(board.button7);
         buttons.add(board.button8);
         buttons.add(board.button9);
-        for(Button b : buttons){
+        for (Button b : buttons) {
             b.setDisable(true);
         }
     }
 
     // Reset
-    public static void resetBoard(TicTacToeController board){
+    public static void resetBoard(TicTacToeController board) {
         board.button1.setText("");
         board.button2.setText("");
         board.button3.setText("");
@@ -240,7 +243,7 @@ public class TicTacToeService {
         buttons.add(board.button7);
         buttons.add(board.button8);
         buttons.add(board.button9);
-        for(Button b : buttons){
+        for (Button b : buttons) {
             b.setDisable(false);
         }
     }

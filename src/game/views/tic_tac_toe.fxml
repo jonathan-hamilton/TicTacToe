@@ -28,7 +28,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="button1" mnemonicParsing="false" onAction="#button1ActionPerformed" prefHeight="132.0" prefWidth="113.0" text="" />
+            <Button fx:id="button1" mnemonicParsing="false" onAction="#button1ActionPerformed" prefHeight="132.0" prefWidth="113.0" stylesheets="@../styles/buttonStyles.css" text="" />
             <Button fx:id="button2" mnemonicParsing="false" onAction="#button2ActionPerformed" prefHeight="116.0" prefWidth="109.0" text="" GridPane.columnIndex="1" />
             <Button fx:id="button3" mnemonicParsing="false" onAction="#button3ActionPerformed" prefHeight="136.0" prefWidth="183.0" text="" GridPane.columnIndex="2" />
             <Button fx:id="button4" mnemonicParsing="false" onAction="#button4ActionPerformed" prefHeight="141.0" prefWidth="145.0" text="" GridPane.rowIndex="1" />

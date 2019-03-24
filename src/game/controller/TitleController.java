@@ -14,8 +14,8 @@ public class TitleController {
     @FXML
     public Button pressToPlayButton = new Button();
 
-    public void pressToPlayButtonAction(ActionEvent e){
-        try{
+    public void pressToPlayButtonAction(ActionEvent e) {
+        try {
             Parent parent = FXMLLoader.load(getClass().getResource("/game/views/tic_tac_toe.fxml"));
             Stage stage = new Stage();
             Scene scene = new Scene(parent);
@@ -23,7 +23,7 @@ public class TitleController {
             stage.setTitle("Tic Tac Toe");
             stage.show();
 
-        }catch(Exception ex){
+        } catch (Exception ex) {
             ex.printStackTrace();
         }
     }
