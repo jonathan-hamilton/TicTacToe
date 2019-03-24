@@ -15,27 +15,25 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
     @FXML
     public Button reset;
     @FXML
-    public Button button1 = new Button();
+    public Button button1;
     @FXML
-    public Button button2 = new Button();
+    public Button button2;
     @FXML
-    public Button button3 = new Button();
+    public Button button3;
     @FXML
-    public Button button4 = new Button();
+    public Button button4;
     @FXML
-    public Button button5 = new Button();
+    public Button button5;
     @FXML
-    public Button button6 = new Button();
+    public Button button6;
     @FXML
-    public Button button7 = new Button();
+    public Button button7;
     @FXML
-    public Button button8 = new Button();
+    public Button button8;
     @FXML
-    public Button button9 = new Button();
+    public Button button9;
     @FXML
-    public Label winnerLabel = new Label();
-
-//    TicTacToeModel board = new TicTacToeModel();
+    public Label winnerLabel;
 
     // Required override not used in this implementation
     @Override
@@ -101,18 +99,6 @@ public class TicTacToeController implements EventHandler<ActionEvent> {
 
     // Reset button to clear values and start a new game
     public void resetActionPerformed(ActionEvent e) {
-        button1.setText("");
-        button2.setText("");
-        button3.setText("");
-        button4.setText("");
-        button5.setText("");
-        button6.setText("");
-        button7.setText("");
-        button8.setText("");
-        button9.setText("");
-        winnerLabel.setText("");
-        playerTurn = true;
-        player1Won = false;
-        player2Won = false;
+        resetBoard(this);
     }
 }
