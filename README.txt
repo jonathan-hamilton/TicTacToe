@@ -1,6 +1,9 @@
 Project Title:
 Tic Tac Toe
 
+Author/Date:
+Jonathan Hamilton 2019-03-22
+
 Motivation:
 To complete ZenDesk assignment "Build a playable implementation of Tic Tac Toe".
 
@@ -23,6 +26,3 @@ Decisions:
 -I utilized a semi-MVC architecture. There was no data to persist and thus no Model necessary but I did decide to
 use a Service class for the implementation of the logic to separate that responsibility from the controller.
 -The Controller classes control their respective XML view.
-
-Author/Date:
-Jonathan Hamilton 2019-03-22
