@@ -28,15 +28,42 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button fx:id="button1" mnemonicParsing="false" onAction="#button1ActionPerformed" prefHeight="132.0" prefWidth="113.0" stylesheets="@../styles/buttonStyles.css" text="" />
-            <Button fx:id="button2" mnemonicParsing="false" onAction="#button2ActionPerformed" prefHeight="116.0" prefWidth="109.0" text="" GridPane.columnIndex="1" />
-            <Button fx:id="button3" mnemonicParsing="false" onAction="#button3ActionPerformed" prefHeight="136.0" prefWidth="183.0" text="" GridPane.columnIndex="2" />
-            <Button fx:id="button4" mnemonicParsing="false" onAction="#button4ActionPerformed" prefHeight="141.0" prefWidth="145.0" text="" GridPane.rowIndex="1" />
-            <Button fx:id="button5" mnemonicParsing="false" onAction="#button5ActionPerformed" prefHeight="162.0" prefWidth="184.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" />
-            <Button fx:id="button6" mnemonicParsing="false" onAction="#button6ActionPerformed" prefHeight="126.0" prefWidth="111.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
-            <Button fx:id="button7" mnemonicParsing="false" onAction="#button7ActionPerformed" prefHeight="144.0" prefWidth="175.0" text="" GridPane.rowIndex="2" />
-            <Button fx:id="button8" mnemonicParsing="false" onAction="#button8ActionPerformed" prefHeight="143.0" prefWidth="155.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-            <Button fx:id="button9" mnemonicParsing="false" onAction="#button9ActionPerformed" prefHeight="111.0" prefWidth="109.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button fx:id="button1" mnemonicParsing="false" onAction="#button1ActionPerformed" prefHeight="132.0" prefWidth="113.0" stylesheets="@../styles/buttonStyles.css">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button2" mnemonicParsing="false" onAction="#button2ActionPerformed" prefHeight="116.0" prefWidth="109.0" text="" GridPane.columnIndex="1">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button3" mnemonicParsing="false" onAction="#button3ActionPerformed" prefHeight="136.0" prefWidth="183.0" text="" GridPane.columnIndex="2">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button4" mnemonicParsing="false" onAction="#button4ActionPerformed" prefHeight="141.0" prefWidth="145.0" text="" GridPane.rowIndex="1">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button5" mnemonicParsing="false" onAction="#button5ActionPerformed" prefHeight="162.0" prefWidth="184.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button6" mnemonicParsing="false" onAction="#button6ActionPerformed" prefHeight="126.0" prefWidth="111.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button7" mnemonicParsing="false" onAction="#button7ActionPerformed" prefHeight="144.0" prefWidth="175.0" text="" GridPane.rowIndex="2">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button8" mnemonicParsing="false" onAction="#button8ActionPerformed" prefHeight="143.0" prefWidth="155.0" text="" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
+            <Button fx:id="button9" mnemonicParsing="false" onAction="#button9ActionPerformed" prefHeight="111.0" prefWidth="109.0" text="" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="42.0" />
+               </font></Button>
          </children>
       </GridPane>
       <Label layoutX="116.0" layoutY="1.0" text="Tic Tac Toe">
