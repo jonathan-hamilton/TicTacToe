@@ -5,7 +5,7 @@ Author/Date:
 Jonathan Hamilton 2019-03-22
 
 Motivation:
-To complete ZenDesk assignment "Build a playable implementation of Tic Tac Toe".
+To build a playable implementation of Tic Tac Toe.
 
 Tech/Framework used:
 Java 8, JavaFX, SceneBuilder
